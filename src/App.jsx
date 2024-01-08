@@ -1,15 +1,21 @@
-import { useState } from 'react'
+
 import './App.css'
+import { Route, Routes, Navigate } from 'react-router-dom'
+
+import Home from './pages/Home'
+import Login from './pages/Login'
 
 function App() {
 
   return (
     <>
-      <div>
-        
-        <h1>Vite + React</h1>
       
-      </div>
+      <Routes>
+        <Route index path="/home" element = {<Home />} />
+        <Route path="/login" element = {<Login />} />
+        <Route path="*" element = {<Navigate to='/login' />} />
+      </Routes>
+
     </>
   )
 }
