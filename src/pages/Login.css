@@ -1,0 +1,56 @@
+.login-container{}
+.login{
+    margin-top:2rem;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    width:100%;
+    height:100%;
+    gap:1rem;
+    font-family: Slack-Larsseit, Helvetica Neue, Helvetica, Segoe UI, Tahoma, Arial, sans-serif;
+}
+.login a{text-align: center;font-size:15px;}
+.login h1{
+    font-size:48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 46px;
+    color: #1d1c1d;
+}
+.login h2{
+    font-size:1rem;
+    margin-bottom: 10px;
+    color:red;
+}
+.login form{
+    width:100%;
+    max-width:400px;
+}
+.login input{
+    padding:11px 12px 13px 12px;margin-bottom:20px;width:100%;height:44px;font-size:18px;border-radius:4px;
+    border: 1px solid rgba(29,28,29,.3);
+}
+.login button{
+    margin-bottom:20px;width:100%;min-width:96px;height:44px;font-size:18px;font-weight:700;
+    cursor:pointer;text-align:center;border-radius:4px;
+}
+.submit-bttn{
+    color:#fff;
+    background-color:#611f69;
+    border:none;
+}
+.line-or{
+    margin-bottom: 24px;
+    align-items: center;
+    display:flex;
+}
+.line-or hr{
+    flex-grow:1;
+    border:none;
+    border-top: 1px solid #ddd;
+    border-bottom-color: rgb(128, 128, 128);
+}
+.line-or div{padding: 0 20px;color: #1d1c1d;font-size: 15px;}
+.other-social-bttn{
+    color:#1d1c1d;
+    border-color:rgba(29, 28, 29, 0.3);
+    background-color:transparent;
+}
