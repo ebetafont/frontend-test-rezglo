@@ -8,7 +8,7 @@ export function DirectMsgBox(){
             <ul>
                 <li>Aibot</li>
                 <li>addam</li>
-                <li>Christina</li>
+                <li>christina</li>
                 <li>alan-musk</li>
                 <li>socrates_sama</li>
                 <li>winwin</li>

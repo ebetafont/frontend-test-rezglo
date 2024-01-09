@@ -1,5 +1,5 @@
 
-export function AChat(){
+export function AChat(userMsg){
 
     return(
         <article class="a-chat">
@@ -8,10 +8,10 @@ export function AChat(){
             </div>
             <div class="a-c-box">
                 <div class="friend-chat-name">
-                    <p>sebas <span>10:30 pm</span></p>
+                    <p>{userMsg} <span>10:30 pm</span></p>
                 </div>
                 <div class="chat-content">
-                    <p>Lorem <a>@nombre_persona</a> ipsum dolor sit amet consectetur adipisicing elit. Harum, numquam deleniti quaerat et fugiat culpa. Velit deleniti eligendi asperiores accusamus commodi fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam.</p>
+                    
                 </div>
             </div>
         </article>
