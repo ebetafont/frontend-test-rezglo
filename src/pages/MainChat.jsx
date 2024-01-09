@@ -11,16 +11,15 @@ export function MainChat(){
         {name: "margot", email: "margot@mail.com"}
     ]
     const msgRecList = [
-        {msg: "<p>Lorem <a>@nombre_persona</a> ipsum dolor sit amet consectetur adipisicing elit. Harum, numquam deleniti quaerat et fugiat culpa. Velit deleniti eligendi asperiores accusamus commodi fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam.</p>"},
-        {msg: "<p>ipsum dolor sit amet consectetur adipisicing elit. Harum</p>"},
-        {msg: "<p>Velit deleniti eligendi asperiores accusamus <a>@commodi</a> fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam.</p>"},
-        {msg: "<p>Repellendus aspernatur temporibus magnam quam.</p>"},
-        {msg: "<p> <a>@Lorem</a> ipsum dolor sit amet con asperiores accusamus commodi fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam.</p>"}
+        {msg: "Lorem <a>@nombre_persona</a> ipsum dolor sit amet consectetur adipisicing elit. Harum, numquam deleniti quaerat et fugiat culpa. Velit deleniti eligendi asperiores accusamus commodi fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam."},
+        {msg: "ipsum dolor sit amet consectetur adipisicing elit. Harum</p>"},
+        {msg: "Velit deleniti eligendi asperiores accusamus <a>@commodi</a> fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam."},
+        {msg: "Repellendus aspernatur temporibus magnam quam."},
+        {msg: "<a>@Lorem</a> ipsum dolor sit amet con asperiores accusamus commodi fugit sed officia molestias! Repellendus aspernatur temporibus magnam quam."}
     ]
 
     const userMsg = userList[1]
     const msgRec = msgRecList[0]
-    
     function ramdomiseMsg(){
 
     }
@@ -41,7 +40,7 @@ export function MainChat(){
             </div>
             <div class="main-header-chat">
 
-                <AChat userMsg={userMsg}></AChat>
+                <AChat userMsg={userMsg} msgRec={msgRec}></AChat>
 
             </div>
             <div class="user-chat">
