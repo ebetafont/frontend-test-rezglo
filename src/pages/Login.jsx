@@ -28,29 +28,29 @@ function Login() {
     }
 
     return (
-        <section class="login-container">
+        <section className="login-container">
             {userL && (<Navigate to="/home" replace={true} />)}
-            <div class="login">
+            <div className="login">
                 <a href='#'><img alt="Slack" src="https://a.slack-edge.com/bv1-10/slack_logo-ebd02d1.svg" height="26" title="Slack" /></a>
                 <h1>First, enter your email</h1>
                 <p>We suggest using the <strong>email address you use at work.</strong></p>
     
-                <div class="form">
+                <div className="form">
                     <h2>{errorForm !== '' ? errorForm : ''}</h2>
-                    <form onSubmit={handleSubmit} class="login-form">
+                    <form onSubmit={handleSubmit} className="login-form">
                         <input type="text" value={emailUser} name="E-Mail" placeholder="name@work-email.com"
                             onChange={(e)=> setEmail(e.target.value)} autoComplete="e-mail" />
                         <input type="password" value={password} name="Password" placeholder="Password"
                             onChange={(e)=> setPassword(e.target.value)} autoComplete="current-password" />
-                        <div><button type="submit" class="submit-bttn">Continue</button></div>
+                        <div><button type="submit" className="submit-bttn">Continue</button></div>
                 
-                        <div class="line-or">
-                            <hr class="line" /><div>OR</div><hr class="line" />
+                        <div className="line-or">
+                            <hr className="line" /><div>OR</div><hr className="line" />
                         </div>
-                        <div><button type="button" class="other-social-bttn">
+                        <div><button type="button" className="other-social-bttn">
 
                         Continue With Google</button></div>
-                        <div><button type="button" class="other-social-bttn">
+                        <div><button type="button" className="other-social-bttn">
 
                         Continue With Apple
                         </button></div>

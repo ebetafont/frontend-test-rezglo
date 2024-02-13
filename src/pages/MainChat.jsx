@@ -25,25 +25,25 @@ export function MainChat(){
     }
 
     return(
-        <main class="a-right">
-            <div class="main-header">
+        <main className="a-right">
+            <div className="main-header">
                 <h2>
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA/0lEQVRIS+WVURHCMAyGqZPhAByAA+aAOQAHoAAcMAfMATgAB+CkfHkYN7LL1m6UF3aXh96fy9f+STs3Sfy5xPUnfwDw3mfY+CDuzrl509Iurc7rtYgiC5IvxBXAUgFMLQawIflAHAFsFcDUYgBnkldEAaBUAFMzAVjix44uG3lb3+pBcoCyYMb6ZkyQqTVrdE4Rp1mTfCJKTl0ouKnFAKS4FNoD2CmAqcUA6inJAVTGBLU0E/DtBgvoowfJAcoCuVxiUYU9eaim75A5RZxm1BPR+1QAGN3gVg+UDfJEZ8QUi56hWrBFkijvvS5eF+jSgu+B3s2Qde8PZ0jRn57gBUlUkBlJ4SIgAAAAAElFTkSuQmCC"/>
                     chanel_name
                 </h2>
                 <p>5 members | Add Topic</p>
             </div>
-            <div class="chat-date">
-                <hr class="line" /><div>
+            <div className="chat-date">
+                <hr className="line" /><div>
                     <div><button class="date-bttn">Today</button></div>
-                </div><hr class="line" />
+                </div><hr className="line" />
             </div>
-            <div class="main-header-chat">
+            <div className="main-header-chat">
 
                 <AChat userMsg={userMsg} msgRec={msgRec}></AChat>
 
             </div>
-            <div class="user-chat">
+            <div className="user-chat">
                 <input type="text" placeholder="Escribe un comentario" />
             </div>
         </main>

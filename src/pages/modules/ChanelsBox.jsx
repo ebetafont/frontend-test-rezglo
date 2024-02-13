@@ -2,7 +2,7 @@
 export function ChanelsBox(){
 
     return(
-        <div class="chanels-box">
+        <div className="chanels-box">
             <h3>Chanels (5)</h3>
             <ul>
                 <li>#general</li>

@@ -3,7 +3,7 @@
 export function DirectMsgBox(){
 
     return(
-        <div class="direct-msg-box">
+        <div className="direct-msg-box">
             <h3>Direct Messages (10)</h3>
             <ul>
                 <li>Aibot</li>

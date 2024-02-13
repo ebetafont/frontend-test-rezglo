@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Header />
-            <section class="middle-container">
+            <section className="middle-container">
                 <SideBar />
                 <MainChat />
             </section>
