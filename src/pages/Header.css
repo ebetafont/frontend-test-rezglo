@@ -4,7 +4,7 @@ header{
     width:100vw;
     height:44px;
     background-color:var(--background-color);
-    color:var(--color);
+    
 }
 header .history{
     min-width: 260px;
@@ -16,13 +16,13 @@ header .svg{
 }
 .s-border{
     display:flex;align-items:center;justify-content:space-around;
-    padding:2px;color: rgb(209, 210, 211);
+    padding:2px;color:var(--color);
     gap:1em;height:24px;width: 500px;
     border-radius:4px;background-color:rgba(209, 210, 211, 0.2);
     border-bottom-color:rgb(233, 236, 239);
 }
 .s-border input{
-    width: 100%;
+    width: 100%;color:var(--color);
     outline:none;border-style:none;background-color: transparent;
 }
 header .user-info{

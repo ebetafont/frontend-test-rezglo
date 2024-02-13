@@ -15,7 +15,7 @@
 }
 .a-chat{
     display:flex;
-    margin:5px 10px 0 10px;
+    margin:5px 10px 10px 10px;
 }
 .a-c-avatar{border-radius:10%;max-width:2.5em;max-height:2.5em;border:1.5px solid rgb(233, 236, 239);}
 .a-c-avatar:hover{cursor:pointer;}
@@ -29,4 +29,7 @@
     height:50px;
     width:200px;
     margin:1rem;
+}
+.direct-msg-box, .chanels-box, .user-name{
+    margin-bottom: 2rem;
 }
